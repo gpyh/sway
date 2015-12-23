@@ -42,7 +42,7 @@ install(
 )
 install(
 	FILES ${PROJECT_SOURCE_DIR}/config
-	DESTINATION ${CMAKE_INSTALL_SYSCONFDIR}/sway/
+	DESTINATION etc/sway/
 	COMPONENT configuration
 )
 
